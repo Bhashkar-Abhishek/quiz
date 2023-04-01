@@ -1,0 +1,30 @@
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question h1 {
+  margin-bottom: 20px;
+}
+
+.question ul {
+  list-style: none;
+  padding: 0;
+}
+
+.question li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.question li.selected {
+  background-color: #f1c40f;
+}
